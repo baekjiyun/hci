@@ -1,0 +1,16 @@
+/* 플레이어 전체 스타일 오버라이드 */
+.rhap_container {
+  box-shadow: 0 0 0 0;
+}
+
+.rhap_progress-filled {
+  background-color: #3b7dc4;
+}
+
+.rhap_progress-indicator {
+  background: #3b7dc4;
+}
+
+.rhap_main-controls-button {
+  color: #3b7dc4;
+}
