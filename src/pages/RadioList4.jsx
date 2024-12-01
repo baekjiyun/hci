@@ -28,13 +28,13 @@ const RadioList = () => {
     },
     {
       name: "라디오 3",
-      audioSrc: radio2,
-      url: "https://forms.gle/XCmgViivpnQnFiqu8",
+      audioSrc: radio3,
+      url: "https://forms.gle/cWvjAwXYJanSZ7hi9",
     },
     {
       name: "라디오 4",
-      audioSrc: radio3,
-      url: "https://forms.gle/cWvjAwXYJanSZ7hi9",
+      audioSrc: radio2,
+      url: "https://forms.gle/XCmgViivpnQnFiqu8",
     },
   ];
 
