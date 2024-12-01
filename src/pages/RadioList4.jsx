@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import { FaPlay } from 'react-icons/fa';
-import RadioPlaybackModal from '../components/RadioPlayModal';
+import React, { useState } from "react";
+import { FaPlay } from "react-icons/fa";
+import RadioPlaybackModal from "../components/RadioPlayModal";
 
 // 각 라디오에 해당하는 오디오 파일 임포트
-import radio1 from '../assets/1.mp3';
-import radio2 from '../assets/1ai.mp3';
-import radio3 from '../assets/2ai.mp3';
-import radio4 from '../assets/2.mp3';
+import radio1 from "../assets/1ai.mp3";
+import radio2 from "../assets/1.mp3";
+import radio3 from "../assets/2ai.mp3";
+import radio4 from "../assets/2.mp3";
 
 const RadioList = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -17,24 +17,24 @@ const RadioList = () => {
   // 라디오 리스트 데이터
   const radios = [
     {
-      name: '라디오 1',
-      audioSrc: radio1,
-      url: 'https://forms.gle/XCmgViivpnQnFiqu8',
-    },
-    {
-      name: '라디오 2',
-      audioSrc: radio2,
-      url: 'https://forms.gle/fcmTgJjezzfXLERaA',
-    },
-    {
-      name: '라디오 3',
-      audioSrc: radio3,
-      url: 'https://forms.gle/cWvjAwXYJanSZ7hi9',
-    },
-    {
-      name: '라디오 4',
+      name: "라디오 1",
       audioSrc: radio4,
-      url: 'https://forms.gle/WkpkiMMVYvPmm17N6',
+      url: "https://forms.gle/WkpkiMMVYvPmm17N6",
+    },
+    {
+      name: "라디오 2",
+      audioSrc: radio1,
+      url: "https://forms.gle/fcmTgJjezzfXLERaA",
+    },
+    {
+      name: "라디오 3",
+      audioSrc: radio2,
+      url: "https://forms.gle/XCmgViivpnQnFiqu8",
+    },
+    {
+      name: "라디오 4",
+      audioSrc: radio3,
+      url: "https://forms.gle/cWvjAwXYJanSZ7hi9",
     },
   ];
 
